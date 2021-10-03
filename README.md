@@ -1,4 +1,7 @@
 # Metasabio
+  <p align="left">
+    <img src="https://github.com/nathanyaqueby/bias-brood-squad/blob/main/wordcloud.png" alt="Logo">
+  </p>
 Submission for Artificially Correct Hackathon by Bias Brood Squad.<br>
 Metasabio is a small search engine that retrieves metadata/description from [SABIO dataset](https://github.com/valevo/artificially_correct_challenge) using cosine similarity and TF-IDF weighting.
 
