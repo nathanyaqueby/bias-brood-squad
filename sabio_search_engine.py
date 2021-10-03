@@ -55,8 +55,6 @@ X = vectorizer.fit_transform(docs)
 
 # Create a DataFrame
 sim_data = pd.DataFrame(X.T.toarray(), index=vectorizer.get_feature_names())
-print(sim_data.head())
-print(sim_data.shape)
 
 # Initialize the search engine using a query/keyword
 q1 = "java"
