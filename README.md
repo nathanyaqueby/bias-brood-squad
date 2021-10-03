@@ -1,4 +1,4 @@
-# bias-brood-squad
+# Metasabio
 Submission for Artificially Correct Hackathon by Bias Brood Squad.<br>
 Metasabio is a small search engine that retrieves metadata/description from [SABIO dataset](https://github.com/valevo/artificially_correct_challenge) using cosine similarity and TF-IDF weighting.
 
@@ -8,4 +8,10 @@ The [Cultural AI Lab](https://www.cultural-ai.nl/) in collaboration with the [Na
 ## Sources & datasets
 * [Cultural AI Lab](https://www.cultural-ai.nl/)
 * [National Museum of World Cultures (NMvW)](https://collectie.wereldculturen.nl/)
-* [TDS](https://towardsdatascience.com/create-a-simple-search-engine-using-python-412587619ff5)
+* [TDS by Irfan Alghani Khalid](https://towardsdatascience.com/create-a-simple-search-engine-using-python-412587619ff5)
+
+## Contact
+Amanda Oliver <br>
+Ana María Zapata Guzmán <br>
+Megan Leal Causton <br>
+Nathanya Queby Satriani - [LinkedIn](https://www.linkedin.com/in/queby/) - nathanyaqueby21@gmail.com<br/>
