@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from warnings import simplefilter
+from wordcloud import WordCloud
 
 # Ignore all future warnings
 simplefilter(action='ignore', category=FutureWarning)
@@ -27,6 +28,13 @@ def get_similar_articles(q, sim_data, df):
             print(f"Dated:", df["Dated"][k])
             print(f"Description:", docs[k])
             print("\n")
+            
+            # Generate WordClouds
+            text = docs[k]
+            wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(text)
+
+            # Display the generated image:
+            wordcloud.to_file(f"{q1}_wordcloud_{k}.png")
 
 
 # Load new, cleaned dataset
